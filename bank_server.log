@@ -1,0 +1,12 @@
+[2026-32-15 08:00:00] [INFO] [SESSION_1001] [admin] [192.168.1.10] [AUTH] - Successful login
+[2026-08-15 08:05:00] [INFO] [SESSION_1001] [admin] [192.168.1.10] [QUERY] - UPDATE * FROM accounts
+[2026-08-15 08:10:00] [ERROR] [SESSION_1002] [unknown] [203.0.113.55] [AUTH] - Failed login attempt
+[2026-08-15 08:11:00] [ERROR] [SESSION_1003] [unknown] [203.0.113.55] [AUTH] - Failed login attempt
+[2026-08-15 08:12:00] [ERROR] [SESSION_1004] [admin] [203.0.113.55] [AUTH] - Failed login attempt
+[2026-08-15 09:00:00] [INFO] [SESSION_1005] [teller01] [192.168.1.20] [AUTH] - Successful login
+[2026-08-15 09:05:00] [INFO] [SESSION_1005] [teller01] [192.168.1.20] [TRANSACTION] - Deposit completed amount 500 NIS
+[2026-08-15 09:10:00] [WARNING] [SESSION_1005] [teller01] [192.168.1.20] [QUERY] - Slow SELECT query completed in 1200 ms
+[2026-08-15 10:00:00] [CRITICAL] [SESSION_1006] [backup] [192.168.1.30] [BACKUP] - Backup failed
+[2026-08-15 10:15:00] [CRITICAL] [SESSION_1001] [admin] [192.168.1.10] [TRANSACTION] - Transaction rollback
+[2026-32-15 11:00:00] [INFO] [SESSION_1001] [admin] [192.168.1.10] [AUTH] - Logout successful
+This is an invalid log line
